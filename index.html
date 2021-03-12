@@ -1,0 +1,82 @@
+<!-- sayfa ayarları -->
+<head>
+    <title>Video Site</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<!-- kodlar -->
+<body>
+  
+  <div class="slipy">
+    
+    <a class="menuac btn btn-info buton"> Menü <i class="fas fa-caret-down"></i> </a>
+    
+    <div class="menuler">
+    
+    <li>
+    <a class="menuyazi" href="https://youtube.com/c/AngelCraftNW/">
+    <i class="fab fa-youtube"></i> Youtube Kanalı
+    </a>
+    </li>
+    
+  </div> 
+  </div>  
+  
+</body>
+
+<!-- tasarımlar -->
+<style>
+
+  .slipy .menuler {
+    display: none;
+    border-top: none;
+  }
+  li {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .buton {
+    border-radius: 25px;
+    background-color: #0dcaf0;
+  }
+  .buton:hover {
+    background-color: #0591ad;
+  }
+  .buton:active, .buton:focus {
+    transform: scale(0.9);
+  }
+  .menuyazi {
+    color: #05ad1e;
+  }
+    .menuyazi:hover {
+    color: #0b6619;
+  }
+  
+</style>
+
+<!-- yazılımlar -->
+<script>
+
+  $('.slipy .menuac').click(function() {
+    
+    $(this).next().slideToggle(500).siblings('.menuler').slideUp(500);
+    
+  });
+  
+</script>
+
+<!-- 
+
+Objeler:
+
+fas fa-caret-down
+fab fa-youtube
+#0dcaf0
+#0591ad
+
+-->
