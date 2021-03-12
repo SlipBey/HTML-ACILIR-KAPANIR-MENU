@@ -1,0 +1,27 @@
+  .slipy .menuler {
+    display: none;
+    border-top: none;
+  }
+  li {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .buton {
+    border-radius: 25px;
+    background-color: #0dcaf0;
+  }
+  .buton:hover {
+    background-color: #0591ad;
+  }
+  .buton:active, .buton:focus {
+    transform: scale(0.9);
+  }
+  .menuyazi {
+    color: #05ad1e;
+  }
+    .menuyazi:hover {
+    color: #0b6619;
+  }
+  
